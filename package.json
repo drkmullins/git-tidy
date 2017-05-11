@@ -1,0 +1,21 @@
+{
+  "name": "git-tidy",
+  "version": "0.0.1",
+  "description": "Deletes local branches that are no longer in remote.",
+  "main": "gitTidy.js",
+  "bin": "./bin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "clean",
+    "clean local",
+    "delete local"
+  ],
+  "author": "Derek Mullins",
+  "license": "MIT",
+  "dependencies": {
+    "simple-git": "^1.72.0"
+  }
+}
