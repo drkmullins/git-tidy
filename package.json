@@ -1,11 +1,15 @@
 {
   "name": "git-tidy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Deletes local branches that are no longer in remote.",
   "main": "gitTidy.js",
   "bin": "./bin.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drkmullins/git-tidy.git"
   },
   "keywords": [
     "git",
@@ -15,6 +19,10 @@
   ],
   "author": "Derek Mullins",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drkmullins/git-tidy/issues"
+  },
+  "homepage": "https://github.com/drkmullins/git-tidy",
   "dependencies": {
     "simple-git": "^1.72.0"
   }
