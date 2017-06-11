@@ -1,6 +1,6 @@
 {
   "name": "git-tidy",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Deletes local branches that are no longer in remote.",
   "main": "gitTidy.js",
   "bin": "./bin.js",
